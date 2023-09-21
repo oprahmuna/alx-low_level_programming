@@ -15,13 +15,13 @@ k = 0;
 r = 0;
 while (dest[k] != '\0')
 {
-        k++;
+k++;
 }
 while (src[r] != '\0')
 {
-        dest[k] = src[r];
-        k++;
-        r++;
+dest[k] = src[r];
+k++;
+r++;
 }
 dest[k] = '\0';
 return (dest);
