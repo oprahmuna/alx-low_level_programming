@@ -19,7 +19,7 @@ while (s[len] != '\0')
 len++;
 while (i < len && f == 0)
 {
-if (s[i] == '-')      
+if (s[i] == '-')
 ++d;
 if (s[i] >= '0' && s[i] <= '9')
 {
@@ -55,7 +55,7 @@ return (1);
 }
 num1 = _atoi(argv[1]);
 num2 = _atoi(argv[2]);
-result = num1 * num2;
+result = num1 *num2;
 printf("%d\n", result);
 return (0);
 }
