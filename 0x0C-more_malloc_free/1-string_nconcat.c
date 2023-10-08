@@ -1,12 +1,11 @@
- #include "main.h"
+#include "main.h"
 #include <stdlib.h>
-
-/**by 
+/**by
+ *
  * string_nconcat - function that concatenates two strings
  * @s1: first string
  * @s2: second string
  * @n: number of bytes from second string
- *
  * Return: 0 if failed, pointer otherwise
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -21,7 +20,7 @@ while (s1[i] != '\0')
 {
 i++;
 }
-p = malloc((i * sizeof(char)) + n + 1);
+p = malloc((i *sizeof(char)) + n + 1);
 if (p == NULL)
 return (0);
 for (j = 0; j < i + n; j++)
